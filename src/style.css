@@ -16,7 +16,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 4rem;
+  height: 3rem;
   background-color: rgba(0, 0, 0, 0.728);
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -48,7 +48,7 @@
 .nav a {
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -84,4 +84,89 @@
 
 .hero p {
   font-size: 2rem;
+}
+
+.menu,
+.contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.99)),
+    url(https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase {
+  display: flex;
+  margin: 0 0 2rem 0;
+}
+
+.menu,
+.contact {
+  margin-top: 4.1rem;
+}
+
+.menu .content {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+
+.menu p {
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.menu img {
+  width: 1000px;
+  height: 600px;
+}
+
+.contact img {
+  width: 300px;
+  height: 290px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.contact .staff {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact .info {
+  color: white;
+}
+
+.contact .phone,
+.contact .email {
+  font-size: 1.5rem;
+}
+
+.contact .title {
+  font-size: 1.2rem;
+}
+
+.footer {
+  /* position: fixed; */
+  height: 3rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(58, 58, 58);
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: 1rem;
 }

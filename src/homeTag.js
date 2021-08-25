@@ -1,6 +1,8 @@
 "use strict";
 
-function createNav() {
+function createHeader() {
+  const header = document.createElement("header");
+  header.classList.add("header");
   const nav = document.createElement("nav");
   nav.classList.add("nav");
   const div = document.createElement("div");
@@ -18,8 +20,9 @@ function createNav() {
   }
   div.appendChild(list);
   nav.appendChild(div);
+  header.appendChild(nav);
 
-  return nav;
+  return header;
 }
 
 function hero() {
@@ -41,6 +44,6 @@ function hero() {
 }
 
 export {
-  createNav,
+  createHeader,
   hero,
 };
