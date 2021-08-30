@@ -10,13 +10,13 @@
 }
 
 .nav {
-  position: fixed;
-  /*makenavbarstickonthetop*/ /*width: 100%;
-  */
+  position: fixed; /* make nav bar stick on thet op */
+  /* width: 100%; */
   top: 0;
   left: 0;
   right: 0;
   height: 3rem;
+  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.728);
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -27,9 +27,6 @@
 
 .nav .container {
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -46,6 +43,10 @@
 }
 
 .nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
@@ -58,8 +59,14 @@
 }
 
 .nav a:hover {
-  color: greenyellow;
-  font-weight: bold;
+  background-color: rgb(18, 78, 128);
+  /* font-weight: bold; */
+}
+
+.nav ul,
+.nav li,
+.nav a {
+  height: 100%;
 }
 
 .hero {
@@ -102,7 +109,7 @@
 
 .menu,
 .contact {
-  margin-top: 4.1rem;
+  margin: 3rem 0;
 }
 
 .menu .content {
@@ -119,13 +126,13 @@
 }
 
 .menu img {
-  width: 1000px;
-  height: 600px;
+  width: 800px;
+  height: 480px;
 }
 
 .contact img {
-  width: 300px;
-  height: 290px;
+  width: 240px;
+  height: 228px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -154,7 +161,7 @@
 }
 
 .footer {
-  /* position: fixed; */
+  position: fixed;
   height: 3rem;
   bottom: 0;
   left: 0;
