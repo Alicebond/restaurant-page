@@ -69,6 +69,10 @@
   height: 100%;
 }
 
+.content .container {
+  padding: 3rem 0;
+}
+
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
@@ -95,8 +99,8 @@
 
 .menu,
 .contact {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.99)),
-    url(https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("./food.jpg");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,13 +111,8 @@
   margin: 0 0 2rem 0;
 }
 
-.menu,
-.contact {
-  margin: 3rem 0;
-}
-
 .menu .content {
-  height: 600px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
