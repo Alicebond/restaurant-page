@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/Alicebond/restaurant-page#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
     "css-loader": "^6.2.0",
     "style-loader": "^3.2.1",
     "webpack": "^5.50.0",
